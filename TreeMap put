@@ -1,0 +1,38 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        TreeMap<Integer,String>map=new TreeMap<Integer,String>();
+        System.out.print("Enter the size of the map : ");
+        int size=in.nextInt();
+        System.out.println("Enter the Key and Value ");
+        for(int i=0;i<size;i++)
+        {
+            map.put(in.nextInt(), in.nextLine().trim());
+        }
+        System.out.println("The Key Value pair is "+map);
+
+
+
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
